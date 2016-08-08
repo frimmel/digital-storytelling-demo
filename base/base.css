@@ -6,6 +6,31 @@ body {
     text-align: center;
 }
 
+.navbar {
+    background-color: #2E302F;
+}
+
+.navbar ul {
+    max-width: 830px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.navbar a {
+    color: #EDEDED;
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    color: #EDEDED;
+}
+
 header {
     height: 500px;
     padding-top: 150px;
@@ -50,6 +75,11 @@ header {
     padding: 10px 15px 0;
     text-align: left;
     font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
