@@ -1,0 +1,46 @@
+.slippy-container, #slippy-map {
+    height: 500px;
+}
+
+.slippy-container {
+    position: relative
+}
+
+.slippy-ui {
+    position:absolute;
+    left: 5px;
+    bottom: 5px;
+    z-index: 1000;
+}
+
+.slippy-ui li {
+    padding: 2px 4px;
+    background-color: #262A2B;
+    color: #C8CDCF;
+    border: 1px solid #353C3D;
+    font-size: 15px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.slippy-ui li:hover {
+    cursor: pointer;
+    background-color: #373D40;
+    color: #CED4D6;
+    border: 1px solid #3C4445;
+}
+
+.slippy-ui li:first-child {
+    margin-bottom: 2px;
+}
+
+.slippy-ui li.selected, .slippy-ui li.selected:hover {
+    color: #F5F9FA;
+    background-color: #5D6363;
+    border: 1px solid #4E5859;
+}
