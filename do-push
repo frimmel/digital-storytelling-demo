@@ -1,4 +1,4 @@
 #! /bin/bash
 
 git push origin master
-git push gh-pages
+git push origin gh-pages
