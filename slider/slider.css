@@ -6,3 +6,29 @@
 input {
     width: 100%;
 }
+
+.L {
+    float: left;
+}
+
+.R {
+    float: right;
+}
+
+.slider-labels {
+    margin-top: 4px;
+}
+
+.slider-labels span {
+    font-size: .7em;
+    color: #A3A3A3;
+    position: relative;
+}
+
+.slider-labels span:before {
+    content: "|";
+    font-size: .5em;
+    position: absolute;
+    left: 50%;
+    top: -36%;
+}
