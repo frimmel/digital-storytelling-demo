@@ -1,13 +1,24 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
 * {
-    font-family: georgia, arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
     text-align: center;
 }
 
+html {
+ height: 100%;
+}
+
+body {
+ height: 100%;
+}
+
 .navbar {
     background-color: #2E302F;
+    display: none;
 }
 
 .navbar ul {
@@ -32,9 +43,15 @@ body {
 }
 
 header {
-    height: 500px;
-    padding-top: 150px;
-    background-color: #D9D9D9;
+/*    height: 500px;*/
+    padding-top: 200px;
+    background: url("../images/bg-image.jpg") no-repeat top center fixed #070f19 !important;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .header-title {
@@ -42,19 +59,22 @@ header {
     margin: 0 auto 40px;
     padding: 0 15px;
     font-size: 50px;
-    color: #FF7429;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
 }
 
 .header-stinger {
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto;
     padding: 0 30px;
-    font-size: 25px;
-    color: #00A138;
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;
 }
 
 .content {
-    margin-top: 25px;
+    margin-top: 2em;
 }
 
 .container {
@@ -63,7 +83,7 @@ header {
 
 .container p {
     max-width: 830px;
-    margin: 0 auto 10px;
+    margin: 0 auto 2em;
     padding: 0 15px;
     text-align: left;
     line-height: 1.3em;

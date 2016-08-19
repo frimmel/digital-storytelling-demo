@@ -3,7 +3,8 @@
 }
 
 .slippy-container {
-    position: relative
+    position: relative;
+    margin-bottom: 1em;
 }
 
 .slippy-ui {
