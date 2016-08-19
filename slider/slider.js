@@ -1,4 +1,4 @@
-var imageUrls = ["../images/landuse_76.jpg", "../images/landuse_06.jpg", "../images/landuse_30.jpg"];
+var imageUrls = ["images/landuse_76.jpg", "images/landuse_06.jpg", "images/landuse_30.jpg"];
 
 function preloadImages () {
   var i, image;
