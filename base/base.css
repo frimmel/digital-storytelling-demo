@@ -64,7 +64,7 @@ header {
     color: #fff;
     font-family: Lato, sans-serif;
     text-transform: uppercase;
-    text-shadow: 7px -1px 17px rgba(0,0,0,0.46),8px -1px 18px rgba(0,0,0,0.44),4px 7px 60px rgba(0,0,0,0.46),-9px 18px 26px rgba(0,0,0,0.47)
+    text-shadow: 3px 3px rgba(0,0,0,0.3);
 }
 
 .header-stinger {
@@ -87,7 +87,7 @@ header {
 
 .container p {
     max-width: 830px;
-    margin: 0 auto 2em;
+    margin: 0 auto 20px;
     padding: 0 15px;
     text-align: left;
     line-height: 1.3em;
